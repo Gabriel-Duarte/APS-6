@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="417.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aps.pkg6sem.FXML1Controller">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="417.0" fitWidth="670.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wp%20tabela.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="lblOla" layoutX="14.0" layoutY="14.0" opacity="0.49" prefHeight="40.0" prefWidth="458.0" style="-fx-background-color: white;" />
+      <TableView fx:id="tbl_info" layoutX="15.0" layoutY="195.0" onSort="#tabela" opacity="0.79" prefHeight="200.0" prefWidth="640.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Propriedade" />
+            <TableColumn prefWidth="75.0" text="rua" />
+            <TableColumn prefWidth="75.0" text="numero" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

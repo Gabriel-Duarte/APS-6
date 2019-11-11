@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="APS.jnlp">
+  <information>
+    <title>APS</title>
+    <vendor>Ray Sales</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib\javacpp.jar" size="403749" download="eager" />
+    <jar href="lib\javacv-platform.jar" size="3471" download="eager" />
+    <jar href="lib\javacv.jar" size="408021" download="eager" />
+    <jar href="lib\opencv-android-arm.jar" size="16297859" download="eager" />
+    <jar href="lib\opencv-android-arm64.jar" size="17754076" download="eager" />
+    <jar href="lib\opencv-android-x86.jar" size="20130086" download="eager" />
+    <jar href="lib\opencv-android-x86_64.jar" size="20822855" download="eager" />
+    <jar href="lib\opencv-ios-arm64.jar" size="20879021" download="eager" />
+    <jar href="lib\opencv-ios-x86_64.jar" size="23840677" download="eager" />
+    <jar href="lib\opencv-linux-arm64.jar" size="19087073" download="eager" />
+    <jar href="lib\opencv-linux-armhf.jar" size="19030386" download="eager" />
+    <jar href="lib\opencv-linux-ppc64le.jar" size="21436328" download="eager" />
+    <jar href="lib\opencv-linux-x86.jar" size="19949260" download="eager" />
+    <jar href="lib\opencv-linux-x86_64.jar" size="19807809" download="eager" />
+    <jar href="lib\opencv-macosx-x86_64.jar" size="19715665" download="eager" />
+    <jar href="lib\opencv-platform.jar" size="3265" download="eager" />
+    <jar href="lib\opencv-windows-x86.jar" size="20138957" download="eager" />
+    <jar href="lib\opencv-windows-x86_64.jar" size="23914256" download="eager" />
+    <jar href="lib\opencv.jar" size="1511246" download="eager" />
+    <jar href="lib\sqljdbc42.jar" size="898868" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="APS" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="aps.pkg6sem.APS6SEM"  name="APS" />
+  <update check="always"/>
+</jnlp>
